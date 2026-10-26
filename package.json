@@ -1,0 +1,29 @@
+{
+  "name": "bot-whatsapp-crm-servicios",
+  "version": "1.0.0",
+  "description": "Bot de WhatsApp con IA Multi-Agente (Gemini 3.8 Flash), CRM Web integrado, Google Calendar y Copiloto de Dirección para negocios de servicios, carpinterías y proyectos a la medida.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "whatsapp-bot",
+    "baileys",
+    "gemini",
+    "ai-agent",
+    "crm",
+    "google-calendar",
+    "sales-assistant"
+  ],
+  "author": "LOGARed",
+  "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.0",
+    "@whiskeysockets/baileys": "7.0.0-rc14",
+    "dotenv": "^16.4.7",
+    "nodemailer": "^10.1.6",
+    "pino": "^9.6.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
